@@ -1,1 +1,31 @@
 /*  your css code here. If applicable */
+*{
+    background-color:rgb(135, 206, 235);
+}
+div :first-child{
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+div :nth-child(2){
+    color: black;
+}
+div :last-child{
+    color: red;
+}
+.box:nth-of-type(odd) {
+    background-color: white;
+    width: 50%;
+    padding: 10px;
+}
+.box:nth-of-type(even) {
+    background-color: grey;
+    width: 50%;
+    padding: 10px;
+}
+.box:first-child{
+    font-size: 22px;
+}
+.box:nth-child(3){
+    background-color: pink;
+}
